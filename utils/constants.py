@@ -14,8 +14,8 @@ MESSAGE_OPERATION_CANCELLED = "Operation has been cancelled."
 #################################
 ############# PATHS #############
 #################################
-PATH_FILE_PATCHING_AUDBLUE = "/home/th3pl4gu3/projects/patching_mail_automation/models/mail_contents/aud-blue.txt"
-PATH_FILE_PATCHING_AUDGREEN = "/home/th3pl4gu3/projects/patching_mail_automation/models/mail_contents/aud-green.txt"
+PATH_FILE_PATCHING_AUDBLUE = "/Users/mervin.hemaraju/Projects/patching-mail-automation/models/mail_contents/aud-blue.txt"
+PATH_FILE_PATCHING_AUDGREEN = "/Users/mervin.hemaraju/Projects/patching-mail-automation/models/mail_contents/aud-green.txt"
 
 #################################
 ############# VALUES ############
