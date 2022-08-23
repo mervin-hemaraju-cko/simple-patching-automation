@@ -1,6 +1,5 @@
 #!/bin/bash
 
-<<<<<<< HEAD
 # * Set patching keyword
 export PATCHING_KEYWORD="AUD-GREEN"
 
