@@ -4,13 +4,13 @@
 export PATCHING_KEYWORD="AUD-BLUE"
 
 # * Load virtual environment
-source /Users/mervin.hemaraju/Projects/patching-mail-automation/.venv/bin/activate
+source $PROJECTS/CKO/patching-mail-automation/.venv/bin/activate
 
 # * Load secrets
-source /Users/mervin.hemaraju/Projects/patching-mail-automation/secrets.env
+source $PROJECTS/CKO/patching-mail-automation/secrets.env
 
 # * Exceute script
-python /Users/mervin.hemaraju/Projects/patching-mail-automation/main_mail.py
+python $PROJECTS/CKO/patching-mail-automation/main_mail.py
 
 # * Deactivate the virtual environment
 deactivate
