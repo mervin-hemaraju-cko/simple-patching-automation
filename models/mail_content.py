@@ -20,6 +20,23 @@ class MailContent:
 
             # Get the file to read
             mail_content = Consts.PATH_FILE_PATCHING_AUDGREEN
+
+        # If the patching is for CP3 API BLUE
+        elif keyword == Consts.VALUE_PATCHING_TYPE_CP3_API_BLUE:
+            self.recipient = os.environ["MAIL_SCRIPT_RECIPIENT"]
+            self.subject = Consts.VALUE_MAIL_SUBJECT_CP3_API_BLUE
+
+            # Get the file to read
+            mail_content = Consts.PATH_FILE_PATCHING_CP3_API_BLUE
+
+        # If the patching is for CP3 API GREEN
+        elif keyword == Consts.VALUE_PATCHING_TYPE_CP3_API_GREEN:
+            self.recipient = os.environ["MAIL_SCRIPT_RECIPIENT"]
+            self.subject = Consts.VALUE_MAIL_SUBJECT_CP3_API_GREEN
+
+            # Get the file to read
+            mail_content = Consts.PATH_FILE_PATCHING_CP3_API_GREEN
+
         
         # Read the mail content from file
         f = open(mail_content, "r")
